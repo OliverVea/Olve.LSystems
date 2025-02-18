@@ -1,0 +1,15 @@
+{
+  "variables": ["A", "B"],
+  "constants": ["+", "-"],
+  "axiom": "A",
+  "rules": {
+    "A": "B-A-B",
+    "B": "A+B+A"
+  },
+  "drawRules": {
+    "A": "Draw(1)",
+    "B": "Draw(1)",
+    "+": "Left(1.047197551)",
+    "-": "Right(1.047197551)"
+  }
+}

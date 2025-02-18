@@ -1,0 +1,15 @@
+{
+  "variables": ["F", "G"],
+  "constants": ["+", "-"],
+  "axiom": "F",
+  "rules": {
+    "F": "F+G",
+    "G": "F-G"
+  },
+  "drawRules": {
+    "F": "Draw(1)",
+    "G": "Draw(1)",
+    "+": "Left(1.570796327)",
+    "-": "Right(1.570796327)"
+  }
+}
